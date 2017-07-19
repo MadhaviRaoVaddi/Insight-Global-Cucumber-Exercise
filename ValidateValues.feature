@@ -6,7 +6,7 @@
        Given I Open Chrome browser
               When I navigate to valuespage
 
-      Scenario : 1 Navigate to exercise1 page and confirm that the right number of values appear on the screen
+      Scenario: 1 Navigate to exercise1 page and confirm that the right number of values appear on the screen
         Then I should see the following:
         |ibl_Val_id|
         |txt_val_id|
