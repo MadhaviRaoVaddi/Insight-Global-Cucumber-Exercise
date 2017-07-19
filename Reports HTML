@@ -1,0 +1,12 @@
+cucumber features --format html --out reports -
+
+## A Sample report would contain:
+Number of Features Run = 1
+Number of Scenarios Run= 5
+Number of steps Run = 12
+Duration of test = 1:52 sec
+Number of steps passed = 7
+
+Another way of pulling up a detailed report can be in the following format:
+Describe the Feature , scenario and steps and show the passed steps in green
+and the failed steps in red
