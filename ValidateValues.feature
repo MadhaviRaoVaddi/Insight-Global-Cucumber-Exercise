@@ -26,7 +26,7 @@ Scenario Outline: 2 The values displayed on the screen should be greater than 0
 
 Scenario:3 Total balance should be correct based on the listed values on the screen
       And All the values in the rows 1-5 is populated
-      Then The correct sum of all 5 values should be calculated for the total alance field
+      Then The correct sum of all 5 values should be calculated for the txt_ttl_val field
 
 Scenario: 4 The listed values should be formatted as currency
       Then The values in column txt_val_id should be formated in the currency format
