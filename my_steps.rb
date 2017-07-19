@@ -5,7 +5,7 @@ require "rubygems"
 
 ####Background ########
 
-Given(/^I Open Chrome browser$/) do
+Given(/^I Open Chrome browser and go to 'Http:\/\/Exercise1\.com'$/) do
   @browser ||= Watir::Browser.new :Chrome
   @browser.goto "http://Exercise1.com"
 
@@ -47,7 +47,7 @@ And(/^All the values in the rows 1\-5 is populated$/) do |arg|
   end
 end
 
-Then(/^the correct total amount should be shown$/) do
+Then(/^The correct sum of all (\d+) values should be calculated for the txt_ttl_val field$/) do
 
   Def TotalBalance
 
