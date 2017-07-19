@@ -1,4 +1,15 @@
+
+
 cucumber features --format html --out reports -
+
+## JSON Repors can be generated ###
+CucumberResultsOverview results = new CucumberResultsOverview();
+results.setOutputDirectory("Exercise1");
+results.setOutputName("cucumber-results");
+results.setSourceFile("desiredFileLocation");
+results.execute();
+
+
 
 ## A Sample report would contain:
 Number of Features Run = 1
@@ -10,3 +21,4 @@ Number of steps passed = 7
 Another way of pulling up a detailed report can be in the following format:
 Describe the Feature , scenario and steps and show the passed steps in green
 and the failed steps in red
+
