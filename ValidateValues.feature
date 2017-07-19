@@ -3,7 +3,7 @@
       see correct number of values and calculations on the table.
 
  Background:
-        Given I Open Chrome browser
+        Given I Open Chrome browser and go to 'Http://Exercise1.com'
         When I navigate to valuespage
 
  Scenario: 1 Navigate to exercise1 page and confirm that the right number of values appear on the screen
