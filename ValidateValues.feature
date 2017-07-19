@@ -14,7 +14,7 @@
         |txt_ttl_val|
 
 Scenario Outline: 2 The values displayed on the screen should be greater than 0
-      Then Columns ibl_val_id and txt_val_id should not have values >0
+      Then Columns ibl_val_id and txt_val_id should have values >0
       Examples:
           |ibl_Val_id| |txt_val_id|
           |ibl_val_1 | |txt_val_1 |
@@ -26,7 +26,7 @@ Scenario Outline: 2 The values displayed on the screen should be greater than 0
 
 Scenario:3 Total balance should be correct based on the listed values on the screen
       And All the values in the rows 1-5 is populated
-      Then the correct total amount should be shown
+      Then The correct sum of all 5 values should be calculated for the total alance field
 
 Scenario: 4 The listed values should be formatted as currency
       Then The values in column txt_val_id should be formated in the currency format
