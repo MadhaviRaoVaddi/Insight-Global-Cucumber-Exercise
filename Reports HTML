@@ -1,4 +1,4 @@
-
+A word doccument has been attached for a mock up of the cucumber test results.Please refer to 'Exercise1 Test report mockup'.
 
 cucumber features --format html --out reports -
 
